@@ -9,6 +9,10 @@
     margin: 75px;
 }
 .cart-container{
+    padding: 10px;
     text-align: center;
     background-color: #ff99004d;;
+}
+.cart-container h4{
+    text-align: left;
 }
