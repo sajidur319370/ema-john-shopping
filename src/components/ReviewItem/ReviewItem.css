@@ -1,0 +1,40 @@
+.image {
+  width: 80px;
+  height: 80px;
+}
+.image img {
+  width: 100%;
+  height: 100%;
+}
+.review-container {
+  border: 2px solid #2A414F;
+  border-radius: 5px;
+  width: 500px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+}
+.item-detail > h4,
+h5,
+h6 {
+  margin-left: 10px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.delete-button{
+    height: 55px;
+    width: 55px;
+    color: #EB5757;
+    background-color: #f8caca;
+    border-radius: 50%;
+    border: 0;
+    font-size: 20px;
+
+}
+.delete-button:hover{
+    opacity:0.8;
+   
+}

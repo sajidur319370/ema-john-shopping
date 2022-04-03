@@ -1,18 +1,14 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import useProducts from "../../hooks/UseProduct";
 import { addToDb, getStoredCart } from "../../utilities/fakedb";
 import Cart from "../Cart/Cart";
 import Product from "../Product/Product";
 import "./Shop.css";
 
 const Shop = () => {
-  const [products, setProducts] = useState([]);
+  const [products, setProducts] = useProducts();
   const [cart, setCart] = useState([]);
-  useEffect(() => {
-    fetch("products.json")
-      .then((res) => res.json())
-      .then((data) => setProducts(data));
-  }, []);
-
   useEffect(() => {
     const storedCart = getStoredCart();
     const savedCart = [];
@@ -53,7 +49,11 @@ const Shop = () => {
         ))}
       </div>
       <div className="cart-container">
-        <Cart cart={cart}></Cart>
+        <Cart cart={cart}>
+          <Link to="/order">
+            <button className="review-button">ReviewOrder</button>
+          </Link>
+        </Cart>
       </div>
     </div>
   );

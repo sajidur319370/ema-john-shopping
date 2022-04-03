@@ -15,3 +15,6 @@
 .header a:hover{
     color:#FF9900 ;
 }
+.nav-container{
+    display:flex;
+}

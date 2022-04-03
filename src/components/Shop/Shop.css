@@ -1,16 +1,22 @@
-.shop-container{
-    display: grid;
-    grid-template-columns: 4fr 1fr;
+.shop-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
 }
-.products-container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-gap:45px;
-    margin: 75px;
+.products-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 45px;
 }
-.cart-container{
-    background-color: #ff99004d;;
+.cart-container {
+  background-color: #ff99004d;
 }
-.cart-container h4{
-    text-align: left;
+.cart-container h4 {
+  text-align: left;
+}
+.review-button {
+  width: 232px;
+  height: 48px;
+  background: #ff9900;
+  border-radius: 4px;
+  border: 0;
 }
