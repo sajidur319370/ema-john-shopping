@@ -7,6 +7,14 @@
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 45px;
 }
+.pagination button{
+  margin: 5px;
+  border: 1px solid darkorange;
+
+}
+.pagination .selected{
+  background-color: blue;
+}
 .cart-container {
   background-color: #ff99004d;
 }

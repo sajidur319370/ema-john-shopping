@@ -23,7 +23,7 @@ const Shipment = () => {
   return (
     <div style={{ height: "700px" }} className="form-container">
       <div>
-        <h2 className="form-title">Shipping Information</h2>
+        <h2 className="form-title">Your Shipping Information</h2>
         <form onSubmit={handleCreateUser}>
           <div className="input-group">
             <label htmlFor="name">Name</label>

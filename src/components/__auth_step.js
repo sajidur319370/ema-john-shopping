@@ -15,8 +15,9 @@
 
 /**
  * Hosting steps
- * 1.npm install -g firebase-tools
- * 2.firebase login
- * 3.firebase init
- * 4.firebase deploy
+ * 1.npm install -g firebase-tools (ontime for computer)
+ * 2.firebase login (ontime for computer)
+ * 3.firebase init (ontime time for each project)
+ * 4. mpm run build (every time after update)
+ * 5.firebase deploy (every time after update)
  */
